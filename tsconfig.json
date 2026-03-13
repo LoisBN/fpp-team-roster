@@ -19,6 +19,5 @@
     },
     "rootDirs": [".", "./.react-router/types"]
   },
-  "include": ["app"],
-  "references": [{ "path": "./tsconfig.app.json" }]
+  "include": ["app", "vite.config.ts", "react-router.config.ts"]
 }
